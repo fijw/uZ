@@ -69,7 +69,7 @@
     * Contains all uZ utility header files.
     * (input.h, console.h, table.h)
     */
-    #include "input/input.h"
+    #include "io/io.h"
     #include "console/console.h"
     #include "table/table.h"
 #endif

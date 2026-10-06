@@ -3,8 +3,8 @@
 */
 #include "../uZ.h"    // uZ utility header file.
 
-#ifndef INPUT_H
-#define INPUT_H
+#ifndef IO_H
+#define IO_H
     /*
     * Input functions.
     * ioReadLn - Reads a line of text from the input.
@@ -12,4 +12,10 @@
     */
     char *ioRead();
     bool ioKeyBeingPressed(int key);
+
+    /*
+    * Output functions.
+    * ioWriteCenteredLn - Writes a line of text centered to the console.
+    */
+   void ioWriteCenteredLn(const char *text);
 #endif
