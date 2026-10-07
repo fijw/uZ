@@ -6,17 +6,18 @@
 #ifndef TABLE_H
 #define TABLE_H
     /*
-    * Dictionary structure.
-    * Includes a pointer to an array of entries & a count of entries.
+    * Dictionary & dictionary entry structures.
+    * Entry includes key and value pointers.
+    * Dictionary includes a pointer to an array of entries & a count of entries.
     */
     typedef struct
     {
-        union
-        {
-            void *key;
-            void *value;
-        } *Entries;
-
+        void *key;
+        void *value;
+    } Entry;
+    typedef struct
+    {
+        Entry *Entries;
         size_t size;
     } Dictionary;
 
