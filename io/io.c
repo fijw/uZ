@@ -40,10 +40,7 @@ void ioWriteCenteredLn(const char *text)
     int numSpaces = (width / 2) - strlen(text);
 
     // Fill the buffer with spaces & end it with a null terminator
-    for (int i = 0; i < numSpaces; i++)
-    {
-        buffer[i] = ' ';
-    }
+    for (int i = 0; i < numSpaces; i++) { buffer[i] = ' '; }
     buffer[numSpaces] = '\0';
 
     // Concatenate the text to the buffer & print it
