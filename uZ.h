@@ -4,37 +4,49 @@
 * |------------------------------------------------------|
 * | input.h -> * ioReadLn - Reads a line of text from    |
 * |              the input.                              |
+* |                                                      |
 * |            * ioKeyBeingPressed - Checks if a key     |
 * |              (can be specific) is currently being    |
 * |              pressed.                                |
 * |------------------------------------------------------|
 * | console.h -> * consoleGetSize - Gets the current     |
 * |                console size.                         |
+* |                                                      |
 * |              * consoleSetSize - Sets the console     |
 * |                size.                                 |
+* |                                                      |
 * |              * consoleSetPosition - Sets the console |
 * |                position.                             |
+* |                                                      |
 * |              * consoleLockResize - Locks the console |
 * |                from being resized.                   |
+* |                                                      |
 * |              * consoleLockMaximize - Locks the       |
 * |                console from being maximized.         |
+* |                                                      |
 * |              * consoleLockFullscreen - Locks the     |
 * |                console from entering fullscreen.     |
 * |------------------------------------------------------|
 * | table.h -> * dictionaryGet - Retrieves the value     |
 * |              associated with a given key in the      |
 * |              dictionary.                             |
+* |                                                      |
 * |            * dictionarySet - Adds or updates a       |
 * |              key-value pair in the dictionary.       |
+* |                                                      |
 * |            * dictionaryFindKey - Finds the key       |
 * |              associated with a given value in the    |
 * |              dictionary.                             |
+* |                                                      |
 * |            * arrayGet - Retrieves the value at a     |
 * |              given index in the array.               |
+* |                                                      |
 * |            * arrayPush - Adds a value to the end of  |
 * |              the array.                              |
+* |                                                      |
 * |            * arrayPop - Removes and returns the last |
 * |              value in the array.                     |
+* |                                                      |
 * |            * arrayFindIndex - Finds the index of a   |
 * |              given value in the array.               |
 * |------------------------------------------------------|
